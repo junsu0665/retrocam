@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RetroCam 개인정보 처리방침</title>
+<style>
+  :root { --bg: #121212; --card: #1d1d1d; --text: #eaeaea; --muted: #9a9a9a; --film: #ffc233; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 80px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 36px 0 8px; color: var(--film); }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 10px; border-bottom: 1px solid #2a2a2a; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--film); }
+</style>
+</head>
+<body>
+<main>
+<p class="muted"><a href="privacy-en.html">English</a></p>
+<h1>RetroCam 개인정보 처리방침</h1>
+<p class="muted">시행일: 2026년 10월 7일</p>
+
+<p>RetroCam(이하 "앱")은 옛날 카메라를 흉내 내는 사진 앱입니다. 찍은 사진은 기본적으로 기기 안에만 저장되며, 사용자가 <b>함께 쓰는 롤</b>에 참여해 찍은 사진만 그 롤의 멤버에게 보여 주기 위해 서버에 저장됩니다. 회원가입이 없고 이름·이메일·전화번호를 받지 않습니다.</p>
+
+<h2>1. 서버에 저장하는 정보</h2>
+<table>
+  <tr><th>항목</th><th>목적</th><th>보관 기간</th></tr>
+  <tr><td>익명 사용자 ID (앱이 자동으로 만든 무작위 ID)</td><td>초대·코드·함께 쓰는 롤을 사용자별로 구분</td><td>삭제 요청 시까지</td></tr>
+  <tr><td>친구 초대 코드, 초대 관계, 보상 지급 기록, 쿠폰 코드 사용 기록, 무제한 패스 이용권 기간</td><td>보상·이용권 지급과 중복 방지</td><td>삭제 요청 시까지</td></tr>
+  <tr><td>함께 쓰는 롤: 롤 이름, 사용자가 정한 별명, 롤에서 찍은 사진, 찍은 시각</td><td>롤 멤버끼리 사진을 함께 보기 (현상 시각 전에는 본인만)</td><td>롤에서 나가거나 삭제 요청 시까지 (방장이 삭제하면 롤 전체 삭제)</td></tr>
+  <tr><td>신고 기록 (신고한 사진, 사유)</td><td>부적절한 콘텐츠 확인·조치</td><td>확인 후 최대 1년</td></tr>
+</table>
+<p>익명 ID는 실제 신원과 연결되지 않으며 광고·추적에 쓰지 않습니다. 서버는 Supabase(데이터 센터: 대한민국 서울)를 이용합니다.</p>
+
+<h2>2. 기기 확인 (Apple DeviceCheck)</h2>
+<p>한 기기에서 초대 보상을 여러 번 받는 것을 막기 위해 Apple DeviceCheck를 사용합니다. "이 기기에서 초대 코드를 이미 썼는지"만 Apple에 기록·확인하며, 기기를 식별하는 정보는 저장하지 않습니다.</p>
+
+<h2>3. 기기 안에만 있는 정보</h2>
+<p>함께 쓰는 롤 밖에서 찍은 사진·동영상, 카메라 상태, 보유한 필름·즉석 필름·충전권 수, 설정은 기기 안에만 저장되며 서버로 보내지 않습니다. 앱을 삭제하면 함께 삭제됩니다. 앱은 새 필름 색감 파일(이달의 필름)을 서버에서 내려받을 뿐, 이 과정에서 개인정보를 보내지 않습니다.</p>
+
+<h2>4. 앱이 요청하는 권한</h2>
+<ul>
+  <li><b>카메라</b>: 사진·동영상 촬영</li>
+  <li><b>마이크</b>: 동영상 모드에서 소리 녹음 (기기 안에만 저장)</li>
+  <li><b>사진 추가</b>: 원할 때 사진 앱으로 내보내기</li>
+  <li><b>알림</b>: 현상이 끝났을 때 등 기기 안에서 예약되는 로컬 알림</li>
+  <li><b>동작</b>: 즉석 사진을 흔드는 동작 감지 (기기 안에서만 사용)</li>
+</ul>
+
+<h2>5. 결제</h2>
+<p>인앱 구입과 구독은 Apple이 처리합니다. 앱은 결제 수단이나 카드 정보를 받지 않습니다.</p>
+
+<h2>6. 제3자 제공·광고·분석</h2>
+<p>개인정보를 제3자에게 판매하거나 제공하지 않습니다. 광고, 광고 추적, 분석 도구를 쓰지 않습니다. 함께 쓰는 롤의 사진은 그 롤에 초대된 멤버에게만 보입니다.</p>
+
+<h2>7. 신고와 차단</h2>
+<p>함께 쓰는 롤의 사진을 꾹 눌러 신고하거나 그 사람의 사진을 숨길 수 있고, 언제든 롤에서 나갈 수 있습니다. 신고된 사진은 운영자가 확인해 삭제 등 조치합니다.</p>
+
+<h2>8. 삭제 방법</h2>
+<p>앱의 <b>설정 → 서버에 저장된 내 정보 삭제</b>를 누르면 익명 ID, 초대·보상·쿠폰 기록, 이용권, 내가 올린 롤 사진, 내가 만든 롤이 서버에서 즉시 삭제됩니다. 기기 안의 사진과 보유 아이템은 그대로 남습니다.</p>
+
+<h2>9. 아동</h2>
+<p>아동의 개인정보를 따로 수집하지 않습니다. 함께 쓰는 롤은 초대 코드를 아는 사람끼리만 쓰는 비공개 공간입니다.</p>
+
+<h2>10. 문의</h2>
+<p>개인정보 관련 문의: <a href="mailto:junsu0665@gmail.com">junsu0665@gmail.com</a></p>
+
+<h2>11. 변경</h2>
+<p>방침이 바뀌면 이 페이지에 시행일과 함께 알립니다.</p>
+</main>
+</body>
+</html>
